@@ -1,3 +1,3 @@
-def call(){
-  echo 'Hello World!!'
+def call(String name, String city){
+  echo 'Welcome Mr. ${name}. You are from ${city}'
 }
