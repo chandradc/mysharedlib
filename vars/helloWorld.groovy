@@ -1,3 +1,3 @@
-def call(String name, String city){
-  echo "Welcome Mr. ${name}. You are from ${city}"
+def call(Map config = [:]){
+  echo "Welcome Mr. ${config.name}. You are from ${config.city}"
 }
